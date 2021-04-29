@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>Add Store</title>
+  </head>
+  <body>
+    <div class="container my-3">
+      <img src="/img/sabti.png" class="center" />
+      <h1 class="display-4 text-center">Add Store</h1>
+      <form id="store-form" class="mb-4">
+        <div class="form-group">
+          <label for="store-id">Store ID</label>
+          <input type="text" id="store-id" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label for="store-address">Store Address</label>
+          <input type="text" id="store-address" class="form-control" />
+        </div>
+        <br />
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <a href="index.html" class="btn btn-secondary">Back</a>
+        </div>
+      </form>
+    </div>
+
+    <script src="js/add.js"></script>
+  </body>
+</html>
